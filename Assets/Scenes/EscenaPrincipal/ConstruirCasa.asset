@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ConstruirCasa
   m_EditorClassIdentifier: 
   data:
-    code: ConstruirCAsa
+    code: ConstruyeCasa
     enabled: 1
     displayType: 1
     icon: {fileID: 21300000, guid: 382b1dbdac71a554eaabcf3634b6c828, type: 3}
@@ -21,7 +21,7 @@ MonoBehaviour:
     forceSlot: 0
     slotIndex: 0
     tooltipEnabled: 1
-    description: Construye casa
+    description: Construye Casa
     hideTooltipOnClick: 1
     reloadTime: 0.1
     cursor:

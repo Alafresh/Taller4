@@ -401,17 +401,27 @@ MonoBehaviour:
       categories: []
   canPlaceBuildings: 1
   creationTasks:
-  - taskTitle: 'Place Building: Alcaldia_ciudad'
-    taskUI: {fileID: 11400000, guid: 2abd941973f82b14f80020885fe9e4c9, type: 2}
+  - taskTitle: 'Place Building: casa0'
+    taskUI: {fileID: 11400000, guid: bdcd908b1b728164897e00c8fb7e94cb, type: 2}
     allowedFactionTypes:
       type: 0
       options: []
-    requiredResources: []
+    requiredResources:
+    - type: {fileID: 11400000, guid: d0ff2f522e623ca4bbab91229bb252a7, type: 2}
+      value:
+        amount: 100000
+        capacity: 0
+      nonConsumable: 0
+    - type: {fileID: 11400000, guid: b2719d81f5b16b94f88910af5174dc49, type: 2}
+      value:
+        amount: 2000
+        capacity: 0
+      nonConsumable: 0
     factionEntityRequirements: []
     missingRequirementData:
       icon: {fileID: 0}
       color: {r: 0, g: 0, b: 0, a: 0}
-    prefabObject: {fileID: 2199076536803182422, guid: 21f832c2e9e26ed4983bc5020522266b, type: 3}
+    prefabObject: {fileID: 1603350296812982638, guid: fd25d12a7141cf045b9f803f60f3b118, type: 3}
   upgradeTargetCreationTasks: []
   fetchConstructionAudioOnce: 0
   constructionAudio:

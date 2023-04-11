@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 992e646db1208fc46bbbe5ddc17aa7f5, type: 3}
   m_Name: Dinero
   m_EditorClassIdentifier: 
-  key: Dinero
-  displayName: Dinero
-  description: Dinero para gastar
+  key: "Pr\xE9stamo bancario"
+  displayName: "Pr\xE9stamo bancario"
+  description: Capacidad de Endeudamiento
   hasCapacity: 0
   capacityType: 1
   startingAmount:
-    amount: 120
+    amount: 1000000
     capacity: 0
   icon: {fileID: 21300000, guid: 9fd41c9b23931e54c93a676477d71c6b, type: 3}
