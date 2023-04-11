@@ -27,7 +27,7 @@ MonoBehaviour:
   forecastModifierMethod: 0
   chances: []
   cloudSettings:
-    cumulusCoverage: 0
+    cumulusCoverage: 0.185
     altocumulusCoverage: 0
     chemtrailCoverage: 0
     cirrostratusCoverage: 0

@@ -47,8 +47,8 @@ MonoBehaviour:
   useLeapYear: 0
   resetTicksOnStart: 0
   startTicks: 120
-  ticksPerDay: 360
-  tickSpeed: 4
+  ticksPerDay: 720
+  tickSpeed: 1
   tickSpeedMultiplier:
     serializedVersion: 2
     m_Curve:
