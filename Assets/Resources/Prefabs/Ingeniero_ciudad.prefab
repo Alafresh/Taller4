@@ -56,7 +56,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tabID:
     x: 0
-    y: 2
+    y: 0
   _name: Ingeniero
   code: Ingeniero_ciudad
   category: civilian_unit
@@ -92,7 +92,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tabID:
     x: 0
-    y: 1
+    y: 0
   maxHealth: 100
   initialHealth: 100
   canIncrease: 1
@@ -402,7 +402,7 @@ MonoBehaviour:
   canPlaceBuildings: 1
   creationTasks:
   - taskTitle: 'Place Building: casa0'
-    taskUI: {fileID: 11400000, guid: bdcd908b1b728164897e00c8fb7e94cb, type: 2}
+    taskUI: {fileID: 11400000, guid: 5988cb7c3ba6c894dab1a2146671a504, type: 2}
     allowedFactionTypes:
       type: 0
       options: []
@@ -412,7 +412,7 @@ MonoBehaviour:
         amount: 100000
         capacity: 0
       nonConsumable: 0
-    - type: {fileID: 11400000, guid: b2719d81f5b16b94f88910af5174dc49, type: 2}
+    - type: {fileID: 11400000, guid: 3c20fbda5dfd1444a8c70576f3aa98cf, type: 2}
       value:
         amount: 2000
         capacity: 0
@@ -636,7 +636,7 @@ MonoBehaviour:
   isActive: 1
   tabID:
     x: 1
-    y: 1
+    y: 0
   priority: 0
   requireIdleEntity: 1
   targetFinderData:
@@ -654,7 +654,8 @@ MonoBehaviour:
         _min: 1
         _max: 2
   movableTerrainAreas:
-  - {fileID: 11400000, guid: 01d026a27eed1a44d8be5c8b63c6d075, type: 2}
+  - {fileID: 11400000, guid: 732aab80d6cae304fbae7f8690ea9fc1, type: 2}
+  - {fileID: 11400000, guid: 37d2dffab9a31a84c81d764228531ba7, type: 2}
   formation:
     lastType: {fileID: 11400000, guid: 35416a79068077e409e3f8c81274ce05, type: 2}
     type: {fileID: 11400000, guid: 35416a79068077e409e3f8c81274ce05, type: 2}

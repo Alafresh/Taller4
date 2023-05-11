@@ -47,7 +47,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   placableTerrainAreas:
-  - {fileID: 11400000, guid: 01d026a27eed1a44d8be5c8b63c6d075, type: 2}
+  - {fileID: 11400000, guid: 732aab80d6cae304fbae7f8690ea9fc1, type: 2}
+  - {fileID: 11400000, guid: 37d2dffab9a31a84c81d764228531ba7, type: 2}
   canPlaceOutsideBorder: 1
   canPlaceInEnemyBorder: 0
   ignoreLayerMask:
@@ -650,7 +651,7 @@ MonoBehaviour:
     y: 1
   creationTasks:
   - taskTitle: 'Create Unit: Civil'
-    taskUI: {fileID: 11400000, guid: b545f26de16584d4080d3ace40addcfe, type: 2}
+    taskUI: {fileID: 11400000, guid: ceda5ce616a143a49883d23e939ced6b, type: 2}
     allowedFactionTypes:
       type: 0
       options: []
@@ -660,7 +661,7 @@ MonoBehaviour:
         amount: 10000
         capacity: 0
       nonConsumable: 0
-    - type: {fileID: 11400000, guid: b2719d81f5b16b94f88910af5174dc49, type: 2}
+    - type: {fileID: 11400000, guid: 3c20fbda5dfd1444a8c70576f3aa98cf, type: 2}
       value:
         amount: 2000
         capacity: 0

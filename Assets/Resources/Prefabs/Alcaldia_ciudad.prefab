@@ -618,7 +618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   placableTerrainAreas:
-  - {fileID: 11400000, guid: 01d026a27eed1a44d8be5c8b63c6d075, type: 2}
+  - {fileID: 11400000, guid: 37d2dffab9a31a84c81d764228531ba7, type: 2}
   canPlaceOutsideBorder: 0
   canPlaceInEnemyBorder: 0
   ignoreLayerMask:
@@ -767,14 +767,19 @@ MonoBehaviour:
   isActive: 1
   tabID:
     x: 0
-    y: 0
+    y: 1
   creationTasks:
   - taskTitle: 'Create Unit: Ingeniero_ciudad'
-    taskUI: {fileID: 11400000, guid: 0d873a85c5c29ab4194e92aee4ea8144, type: 2}
+    taskUI: {fileID: 11400000, guid: 74175006ad7d3b3488d27fe7b6c0ba5b, type: 2}
     allowedFactionTypes:
       type: 0
       options: []
-    requiredResources: []
+    requiredResources:
+    - type: {fileID: 11400000, guid: d0ff2f522e623ca4bbab91229bb252a7, type: 2}
+      value:
+        amount: 25000
+        capacity: 0
+      nonConsumable: 0
     factionEntityRequirements: []
     missingRequirementData:
       icon: {fileID: 0}

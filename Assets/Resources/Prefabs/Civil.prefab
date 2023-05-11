@@ -56,7 +56,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tabID:
     x: 0
-    y: 0
+    y: 1
   _name: Ciudadano
   code: Civil
   category: civilian_building
@@ -71,7 +71,7 @@ MonoBehaviour:
   coloredRenderers:
   - renderer:
       status: 1
-      obj: {fileID: 0}
+      obj: {fileID: 5954307680189662269}
       indexKey: 0
       entity: {fileID: 4679753820700307354}
     materialID: 0
@@ -92,14 +92,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tabID:
     x: 0
-    y: 1
+    y: 0
   maxHealth: 100
   initialHealth: 100
   canIncrease: 1
   canDecrease: 1
   hoverHealthBarData:
     enabled: 1
-    offset: {x: 0, y: -1, z: 0}
+    offset: {x: 0, y: 4, z: 0}
     size: {x: 1, y: 1, z: 1}
   hoverHealthBarY: 4
   hitEffect:
@@ -596,7 +596,7 @@ MonoBehaviour:
   isActive: 1
   tabID:
     x: 1
-    y: 1
+    y: 0
   priority: 0
   requireIdleEntity: 1
   targetFinderData:
@@ -614,7 +614,8 @@ MonoBehaviour:
         _min: 1
         _max: 2
   movableTerrainAreas:
-  - {fileID: 11400000, guid: 01d026a27eed1a44d8be5c8b63c6d075, type: 2}
+  - {fileID: 11400000, guid: 37d2dffab9a31a84c81d764228531ba7, type: 2}
+  - {fileID: 11400000, guid: 732aab80d6cae304fbae7f8690ea9fc1, type: 2}
   formation:
     lastType: {fileID: 11400000, guid: 35416a79068077e409e3f8c81274ce05, type: 2}
     type: {fileID: 11400000, guid: 35416a79068077e409e3f8c81274ce05, type: 2}
@@ -737,6 +738,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d71eaacb7dc9214a840923aeede17a1, type: 3}
+--- !u!137 &5954307680189662269 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 13702594, guid: 0d71eaacb7dc9214a840923aeede17a1, type: 3}
+  m_PrefabInstance: {fileID: 5954307680201134591}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5954307680200957225 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 445654, guid: 0d71eaacb7dc9214a840923aeede17a1, type: 3}
@@ -764,4 +770,5 @@ MonoBehaviour:
   animatorConnections:
     connectedChildren: []
   rendererConnections:
-    connectedChildren: []
+    connectedChildren:
+    - {fileID: 5954307680189662269}
