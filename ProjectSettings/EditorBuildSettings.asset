@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/EscenaHitler.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/EscenaPrincipal/EscenaPrincipal.unity
+    guid: 79f6a8b25c69f884dae7f84a3553f474
+  - enabled: 1
+    path: Assets/Scenes/EscenaDestruido/EscenaDestruida.unity
+    guid: e240f2fd2a0ebae4baaefd2e27ceeaf0
   m_configObjects: {}

@@ -56,14 +56,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tabID:
     x: 0
-    y: 2
+    y: 0
   _name: Ciudadano
   code: Civil
   category: civilian_building
   description: Aumentan el numero de poblacion Pagan impuestos
   icon: {fileID: 21300000, guid: 82ab6ec148cc2f64b9fd8b5140746c7a, type: 3}
   radius: 0.7
-  model: {fileID: 3826674858980572393}
+  model: {fileID: 6151181589456581734}
   isMainEntity: 0
   isFactionLocked: 0
   initResources: []
@@ -71,7 +71,7 @@ MonoBehaviour:
   coloredRenderers:
   - renderer:
       status: 1
-      obj: {fileID: 5954307680189662269}
+      obj: {fileID: 0}
       indexKey: 0
       entity: {fileID: 4679753820700307354}
     materialID: 0
@@ -737,11 +737,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d71eaacb7dc9214a840923aeede17a1, type: 3}
---- !u!137 &5954307680189662269 stripped
-SkinnedMeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 13702594, guid: 0d71eaacb7dc9214a840923aeede17a1, type: 3}
-  m_PrefabInstance: {fileID: 5954307680201134591}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5954307680200957225 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 445654, guid: 0d71eaacb7dc9214a840923aeede17a1, type: 3}
@@ -752,7 +747,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 137922, guid: 0d71eaacb7dc9214a840923aeede17a1, type: 3}
   m_PrefabInstance: {fileID: 5954307680201134591}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3826674858980572393
+--- !u!114 &6151181589456581734
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -769,5 +764,4 @@ MonoBehaviour:
   animatorConnections:
     connectedChildren: []
   rendererConnections:
-    connectedChildren:
-    - {fileID: 5954307680189662269}
+    connectedChildren: []
